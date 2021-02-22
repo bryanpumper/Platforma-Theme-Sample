@@ -178,3 +178,22 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+//remove the admin bar
+/* Disable WordPress Admin Bar for all users */
+add_filter( 'show_admin_bar', '__return_false' );
+
+//add bootstrap styling
+//wp_enqueue_style("bootstrap", "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
+
+//enqueue Google Fonts Roboto
+function myprefix_enqueue_google_fonts() { 
+	wp_enqueue_style( 'roboto', 'https://fonts.googleapis.com/css?family=Roboto:wght@100&display=swap', false ); 
+}
+add_action( 'wp_enqueue_scripts', 'myprefix_enqueue_google_fonts' ); 
+
+/*-enqueue Bootstrap-*/
+function my_custom_scripts() {
+    wp_enqueue_style('bootstrap4css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+    wp_enqueue_script( 'bootstrap4js','https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array( 'jquery' ),'',true );
+}
+add_action( 'wp_enqueue_scripts', 'my_custom_scripts' );

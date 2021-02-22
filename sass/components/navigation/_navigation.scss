@@ -107,3 +107,8 @@
 		flex: 1 0 50%;
 	}
 }
+
+/*-GLOBAL: override this for now - hide it for testing purposes-*/
+#primary-menu, #site-navigation{
+	display: none;
+}

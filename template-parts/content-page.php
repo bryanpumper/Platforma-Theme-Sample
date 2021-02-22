@@ -32,11 +32,11 @@
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
 			<?php
-			edit_post_link(
+			/*edit_post_link(
 				sprintf(
-					wp_kses(
+					wp_kses( */
 						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'platforma-theme-sample' ),
+						/* __( 'Edit <span class="screen-reader-text">%s</span>', 'platforma-theme-sample' ),
 						array(
 							'span' => array(
 								'class' => array(),
@@ -47,7 +47,7 @@
 				),
 				'<span class="edit-link">',
 				'</span>'
-			);
+			);*/
 			?>
 		</footer><!-- .entry-footer -->
 	<?php endif; ?>
