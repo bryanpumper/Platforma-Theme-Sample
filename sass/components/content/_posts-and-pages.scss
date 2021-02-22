@@ -25,7 +25,6 @@
 /*-The Custom Gutenberg Block-*/
 .cust_two_cols {
     margin: 0 15%;
-
 	.top_icon > img {
 		width: 12%;
 		image-rendering: -webkit-optimize-contrast;
@@ -47,7 +46,6 @@
 	.btn-lg {
 		font-size: 18px;
 		padding: 1em 1.5em;
-
 		span {
 			padding-right: 0.5em;
 		}
@@ -55,12 +53,10 @@
     .side_main_img > img {
 		width: 90%;
 		float: right;
-
 		figure{
 			margin:0;
 		}
 	}
-
 	.wp-block-columns{
         margin-bottom: 0;
 	}
