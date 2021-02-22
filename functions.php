@@ -183,4 +183,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 add_filter( 'show_admin_bar', '__return_false' );
 
 //add bootstrap styling
-wp_enqueue_style("bootstrap", "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
+//wp_enqueue_style("bootstrap", "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
+
+//enqueue Google Fonts Roboto
+function myprefix_enqueue_google_fonts() { 
+	wp_enqueue_style( 'roboto', 'https://fonts.googleapis.com/css?family=Roboto' ); 
+}
+add_action( 'wp_enqueue_scripts', 'myprefix_enqueue_google_fonts' ); 
