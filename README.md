@@ -1,6 +1,40 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
+MESSAGE FROM DEV:
 
-_s
+The Git url:
+
+https://github.com/bryanpumper/Platforma-Theme-Sample
+
+git@github.com:bryanpumper/Platforma-Theme-Sample.git
+
+
+Added all the files an compiled styles and scripts as well. When you deploy it on the localhost:
+
+1. Import the file from this folder: EXPORTED_DATA_FEB_22_2021
+2. Import it using the plugin All-in-One WP Migration (it will import all the contents that's been used from my localhost)
+3. Deploy this theme (add this theme on the themes folder) and activate it
+4. Install the plugin WP-SCSS (this will enable the compilation - and supposed initialization of the the updated scss files into new css)
+
+Screenshots:
+
+Desktop:
+
+https://prnt.sc/103yobu
+
+Mobile:
+
+https://prnt.sc/103yq12
+
+https://prnt.sc/103yqg9
+
+https://prnt.sc/103yqsx
+
+https://prnt.sc/103yr5e
+
+
+thanks
+
+- Bryan
+
 ===
 
 Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
