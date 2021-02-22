@@ -19,3 +19,9 @@ input[type="submit"] {
 		border-color: $color__border-button-focus;
 	}
 }
+
+/*-Custom Guttenberg Custom Block Button-*/
+.btn-info {
+    background-color: $color__cgb-block-main;
+    border-color: $color__cgb-block-main;
+}
